@@ -22,6 +22,7 @@ specifiers:
   sort-by: ^1.2.0
   tiny-invariant: ^1.3.1
   typescript: ^5.1.6
+  vite: ^5.1.4
 
 dependencies:
   '@remix-run/node': 2.7.2_typescript@5.3.3
@@ -35,7 +36,7 @@ dependencies:
   tiny-invariant: 1.3.3
 
 devDependencies:
-  '@remix-run/dev': 2.7.2_dmlr6f3qerkvptlk5vf22ddnbm
+  '@remix-run/dev': 2.7.2_3ai4qhwoytsctkm3tvpv6t3fgy
   '@types/react': 18.2.58
   '@types/react-dom': 18.2.19
   '@typescript-eslint/eslint-plugin': 6.21.0_ue4opsjrgmbcyesuxmv4s7c57m
@@ -47,6 +48,7 @@ devDependencies:
   eslint-plugin-react: 7.33.2_eslint@8.57.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.57.0
   typescript: 5.3.3
+  vite: 5.1.4
 
 packages:
 
@@ -1001,7 +1003,7 @@ packages:
     dev: true
     optional: true
 
-  /@remix-run/dev/2.7.2_dmlr6f3qerkvptlk5vf22ddnbm:
+  /@remix-run/dev/2.7.2_3ai4qhwoytsctkm3tvpv6t3fgy:
     resolution: {integrity: sha512-ejxzcQY5DFl1CNG5+5+y0UeklOqkRBO43lAPnSC8ITLigjZY6UZsBENlex/Y+xJzjIUtaRBxc7mVaWa62FDQOg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1074,6 +1076,7 @@ packages:
       tar-fs: 2.1.1
       tsconfig-paths: 4.2.0
       typescript: 5.3.3
+      vite: 5.1.4
       ws: 7.5.9
     transitivePeerDependencies:
       - '@types/node'
@@ -1575,7 +1578,7 @@ packages:
       '@babel/plugin-syntax-typescript': 7.23.3_@babel+core@7.23.9
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.5
       '@vanilla-extract/css': 1.14.1
-      esbuild: 0.17.6
+      esbuild: 0.19.12
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0
